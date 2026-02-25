@@ -1,0 +1,12 @@
+HTTrack3.49-5 launched on Wed, 25 Feb 2026 22:28:38 at https://crimestats.co.nz/ +*.jpg +*.jpeg +*.png +*.gif +*.svg +*.ico -*.html -*.htm -*.css -*.js -*.php -*.asp -*.pdf -*.txt -*.xml
+(httrack https://crimestats.co.nz/ -O ./crimestats_assets -r2 -c8 -A0 +*.jpg +*.jpeg +*.png +*.gif +*.svg +*.ico -*.html -*.htm -*.css -*.js -*.php -*.asp -*.pdf -*.txt -*.xml )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:28:38	Warning: 	* security warning: maximum bandwidth limited to 10000000 to avoid server overload
+
+HTTrack Website Copier/3.49-5 mirror complete in 12 seconds : 12 links scanned, 11 files written (333082 bytes overall) [109044 bytes received at 9087 bytes/sec], 283492 bytes transferred using HTTP compression in 7 files, ratio 17%
+(No errors, 1 warnings, 0 messages)
